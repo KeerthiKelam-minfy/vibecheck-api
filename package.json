@@ -9,8 +9,21 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "express": "^5.1.0"
-  }
+    "bcrypt": "^6.0.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.0",
+    "swagger-ui-express": "^5.0.1",
+    "yamljs": "^0.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeerthiKelam-minfy/vibecheck-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KeerthiKelam-minfy/vibecheck-api/issues"
+  },
+  "homepage": "https://github.com/KeerthiKelam-minfy/vibecheck-api#readme",
+  "description": ""
 }

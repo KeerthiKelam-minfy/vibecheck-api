@@ -1,8 +1,18 @@
-import express, { application } from "express"
+import express from 'express'
+import connectDB from './config/db.js'
+import dotenv from "dotenv" 
+
+import authRoutes from './routes/auth.js'
+import vibeRoutes from './routes/vibes.js'
 
 const app = express()
 app.use(express.json())
 
+dotenv.config()
+
+connectDB()
+
+/*
 const sampleVibes = [
     {
         id: 1,
@@ -20,28 +30,11 @@ const sampleVibes = [
         description: "This is a telugu podcast playlist curated for podcasts with some clarity and some reality"
     }
 ]
+*/
 
-// Root Endpoint
-app.get("/", (req, res) => {
-    res.json(
-        "Welcome to VibeCheck!! Check your Vibe."
-    )
-})
+app.use('/api/v1/auth', authRoutes)
+app.use('/api/v1/vibes', vibeRoutes)
 
-// get all vibes endpoint
-// get a single vibe by id
-app.get("/api/v1/vibes/:id", (req, res) => {
-    const id = parseInt(req.params.id)
-    const vibe = sampleVibes.find(v => v.id === id)
-
-    if(!vibe) {
-        return res.status(404).json({"success": false, "message": "That vibe is off the grid, not found."})
-    }
-    res.status(200).json(vibe)
-})
-
-const PORT = 5000
-
-app.listen(PORT, () => {
-    console.log("🚀 Server blasting off on port 5000.")
+app.listen(process.env.PORT, () => {
+    console.log(`🚀 Server blasting off on port ${process.env.PORT}`)
 })
