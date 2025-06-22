@@ -20,15 +20,18 @@
 
   ### User Signup
 ![image](https://github.com/user-attachments/assets/99b05a7f-037b-4600-89f9-8755599d13b8)
-
+    
+    
   ### User Login
 ![image](https://github.com/user-attachments/assets/dbbd2131-5ca1-4149-b009-35934da5df5b)
 
+        
   ### Posting a Vibe
   (without a header)  
 ![image](https://github.com/user-attachments/assets/bb3dd9e9-ce9a-43a4-af91-58f696f3c89a)
 
 ![image](https://github.com/user-attachments/assets/b611cdee-aa0e-48ce-91f7-01f35be72cb8)
 
+      
   ### Populated Get All Vibes Endpoint
 ![image](https://github.com/user-attachments/assets/aadbc6f7-57d6-4fac-96b3-370fbe3eb801)
