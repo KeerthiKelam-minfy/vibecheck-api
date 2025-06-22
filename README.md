@@ -4,18 +4,18 @@
 
   ### Root Endpoint
 ![image](https://github.com/user-attachments/assets/472ea168-df5b-446b-b49f-eba8a85de4d6)
-
+  
   ### Get All Vibes Endpoint
 ![image](https://github.com/user-attachments/assets/ee1adafc-7404-4771-ba5b-e82c5c7adaae)
-
+  
   ### Get Single Vibe Endpoint (Success Case):
 ![image](https://github.com/user-attachments/assets/d7bf3e36-ede4-4939-b45d-7c242c46062b)
-
+  
   ### Get Single Vibe Endpoint (Failure Case):
 ![image](https://github.com/user-attachments/assets/52ce68a2-24fb-47df-b50a-abc3b209bf33)
-  
-  
+    
    
+     
 ## Medium Assignment
 
   ### User Signup
