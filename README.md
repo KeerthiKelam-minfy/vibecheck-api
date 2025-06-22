@@ -22,7 +22,7 @@
 ![image](https://github.com/user-attachments/assets/99b05a7f-037b-4600-89f9-8755599d13b8)
 
   ### User Login
-![image](https://github.com/user-attachments/assets/182f194b-b67c-4755-a09e-32bcbc473fdc)
+![image](https://github.com/user-attachments/assets/dbbd2131-5ca1-4149-b009-35934da5df5b)
 
   ### Posting a Vibe
   (without a header)  
