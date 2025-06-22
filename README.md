@@ -1,14 +1,22 @@
 # vibecheck-api
 
 ## Easy Assignment
+
+  ### Root Endpoint
+![image](https://github.com/user-attachments/assets/472ea168-df5b-446b-b49f-eba8a85de4d6)
+
+  ### Get All Vibes Endpoint
+![image](https://github.com/user-attachments/assets/ee1adafc-7404-4771-ba5b-e82c5c7adaae)
+
+  ### Get Single Vibe Endpoint (Success Case):
+![image](https://github.com/user-attachments/assets/d7bf3e36-ede4-4939-b45d-7c242c46062b)
+
+  ### Get Single Vibe Endpoint (Failure Case):
+![image](https://github.com/user-attachments/assets/52ce68a2-24fb-47df-b50a-abc3b209bf33)
   
-![image](https://github.com/user-attachments/assets/aee6de1c-fffd-40a1-96d5-30ed76cf2d46)
   
-![image](https://github.com/user-attachments/assets/dcc2f3f2-f984-4b9e-a5f5-ccf514913e72)
-  
-![image](https://github.com/user-attachments/assets/c3115978-5b4d-4d14-bd6a-041e508b3b31)
-  
-![image](https://github.com/user-attachments/assets/fc0f1128-44f2-4e2b-b7e7-2ef541d30d87)
+   
+## Medium Assignment
 
   ### User Signup
 ![image](https://github.com/user-attachments/assets/99b05a7f-037b-4600-89f9-8755599d13b8)
@@ -17,6 +25,7 @@
 ![image](https://github.com/user-attachments/assets/182f194b-b67c-4755-a09e-32bcbc473fdc)
 
   ### Posting a Vibe
+  (without a header)  
 ![image](https://github.com/user-attachments/assets/bb3dd9e9-ce9a-43a4-af91-58f696f3c89a)
 
 ![image](https://github.com/user-attachments/assets/b611cdee-aa0e-48ce-91f7-01f35be72cb8)
