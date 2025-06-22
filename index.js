@@ -8,18 +8,18 @@ app.use(express.json())
 const sampleVibes = [
     {
         id: 1,
-        name: "Tollywood Pearls",
-        description: "This is a playlist curated for telugu pearls."
+        vibeText: "Just posted my first vibe from the API!",
+        mood: "chill",
     },
     {
         id: 2,
-        name: "Top English Songs of All Time",
-        description: "This playlist contains the top english songs of all time."
+        vibeText: "This is very sad",
+        mood: "sad",
     },
     {
         id: 3,
-        name: "Koncham clarity koncham reality",
-        description: "This podcast by Ajay Padarthi has many podcasts having some clarity and some reality."
+        vibeText: "Oh! This is very nice",
+        mood: "happy",
     }
 ]
 
