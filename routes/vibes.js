@@ -1,6 +1,6 @@
 import express from "express";
 import Vibe from "../models/Vibe.js";
-// import User from "../models/User";
+import User from "../models/User.js";
 import auth from "../middleware/auth.js";
 
 const router = express.Router();
